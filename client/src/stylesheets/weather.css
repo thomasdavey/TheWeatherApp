@@ -1,0 +1,105 @@
+* {
+  font-size: 15pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: 50px auto;
+  display: block;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.weather-main {
+  padding: 0 50px 50px 50px;
+}
+
+svg {
+  margin-right: 8px;
+  height: 20px;
+  width: 20px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.location p {
+  display: inline-block;
+}
+
+.container h1 {
+  font-size: 55pt;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.high-low-temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.high-low-temp p {
+  display: inline-block;
+}
+
+.low {
+  margin-right: 30px;
+}
+
+.conditions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.conditions img {
+  height: 55px;
+  margin-right: 10px;
+}
+
+.conditions p {
+  font-size: 18pt;
+}
+
+.sunrise-sunset {
+  margin-bottom: 25px;
+}
+
+.sunrise-sunset,
+.sunrise,
+.sunset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunrise p,
+.sunset p {
+  font-size: 13pt;
+}
+
+.sunrise {
+  margin-right: 20px;
+}
+
+.extra-info {
+  margin: 20px 0 0 0;
+  padding: 40px;
+  background-color: #0F52BA;
+  color: white;
+  border-radius: 12px;
+}
+
+.extra-small {
+  font-size: 10pt;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}

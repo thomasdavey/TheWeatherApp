@@ -1,0 +1,38 @@
+.search-container {
+  padding: 30px;
+  display: flex;
+}
+
+.search-container input,
+.search-container button {
+  border-radius: 10px;
+  font-size: 12pt;
+}
+
+.search-container input {
+  padding: 11px 17px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  flex-grow: 2;
+  margin-right: 14px;
+}
+
+.search-container button {
+  background-color: #0F52BA;
+  color: white;
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 0;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #093371;
+}
+
+.error-text {
+  color: red;
+  padding: 0 30px 30px 30px;
+  font-size: 9pt;
+}
