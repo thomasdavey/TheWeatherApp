@@ -1,8 +1,6 @@
 # TheWeatherApp
 
-Created for Beagle Street interview.
-
-Clone repo, `run npm i` in client directory.
+Clone repo, run `npm i` in client directory.
 
 Run `npm run start` in client directory.
 
